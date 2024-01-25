@@ -8,6 +8,7 @@ Users can also enter the name of an artist in the search bar to find more inform
 The music player is a standout feature of this web application, providing users with a seamless experience when playing their favorite tracks. With the help of Spotify's API, the application can access and play the song's preview directly from Spotify, allowing users to listen to the music without leaving the application.
 
 Overall, the Spotify music explorer is a powerful tool that allows users to discover and explore new music effortlessly. With its user-friendly interface, intuitive features, and seamless integration with Spotify, it is an ideal solution for music lovers who want to find their next favorite song.
+NOTE: 70% DONE...
 
 # DEPENDECIES
 .express
