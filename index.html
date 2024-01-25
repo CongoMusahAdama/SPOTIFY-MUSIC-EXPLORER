@@ -1,0 +1,167 @@
+
+<!DOCTYPE html
+<html>  <head>
+    <meta charset="UTF8">
+    <title>Spotify Music Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Quicksand', sans-serif;
+        padding: 0;
+        background-color: blanchedalmond;
+        color: white;
+      }
+
+      .col {
+        float: left;
+        width: 50%;
+        padding: 10px;
+      }
+
+      .right {
+        background-color: rgb(77, 153, 77);
+        color: white;
+      }
+
+      .left {
+        background-color: blanchedalmond;
+        color: white;
+        padding: 20px;
+      }
+
+      h1 {
+        color: black;
+      }
+
+      h2 {
+        color:blanchedalmond
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: blanchedalmond;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        border-radius: 6px;
+        height: 100px;
+        padding: 8px;
+        border: none;
+        margin-bottom: 10px;
+      }
+
+      #search-container {
+        margin-top: 20px;
+      }
+
+      #artist-container {
+        margin-top: 20px;
+      }
+
+      .artist {
+        margin-bottom: 20px;
+      }
+
+      .artist img {
+        width: 300px;
+        height: 600px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .artist h2 {
+        margin-top: 5px;
+      }
+
+      .artist p {
+        margin-top: 5x;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="col col-sm-6 right">
+      <h2><p>Get in touch with moody music with spotify as your stay up to date with latest music from your fav artist. 
+        </p>
+      </h2>
+   <form>
+    <div class="col col-sm-6 left">
+    <h1>Spotify Music Explorer</h1>
+
+    <button id="login-button">Login with Spotify</button>
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search for an artist...">
+      <button id="search-button">Search</button>
+    </div>
+    <div id="artist-container"></div>
+    </form>
+  
+
+    <script src="./spotify.js"></script>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
